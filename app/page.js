@@ -102,7 +102,14 @@ export default function LandingPage() {
       <footer className="bg-gray-900 text-gray-400 py-10 text-center text-sm">
         <div className="text-white font-bold text-lg mb-2">💧 FacilityH2O</div>
         <p>Water Chemistry Compliance. Simplified.</p>
-        <p className="mt-3">© {new Date().getFullYear()} FacilityH2O · <Link href="/login" className="hover:text-white">Log In</Link></p>
+        <div className="flex items-center justify-center gap-4 mt-3 flex-wrap">
+          <Link href="/login" className="hover:text-white transition">Log In</Link>
+          <span className="text-gray-600">·</span>
+          <Link href="/terms" className="hover:text-white transition">Terms of Service</Link>
+          <span className="text-gray-600">·</span>
+          <Link href="/privacy" className="hover:text-white transition">Privacy Policy</Link>
+        </div>
+        <p className="mt-4 text-gray-500">© 2026 Antoine Riley. FacilityH2O™. All rights reserved.</p>
       </footer>
     </div>
   );
