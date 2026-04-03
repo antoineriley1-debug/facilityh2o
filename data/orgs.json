@@ -1,0 +1,13 @@
+[
+  {
+    "id": "org_demo",
+    "name": "Demo Health System",
+    "industry": "healthcare",
+    "plan": "professional",
+    "trialEnds": "2026-05-02T00:00:00Z",
+    "stripeCustomerId": null,
+    "stripeSubscriptionId": null,
+    "active": true,
+    "createdAt": "2026-03-02T00:00:00Z"
+  }
+]

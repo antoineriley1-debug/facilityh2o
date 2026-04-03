@@ -1,0 +1,26 @@
+[
+  {
+    "id": "usr_demo_admin",
+    "orgId": "org_demo",
+    "username": "demo@facilityh2o.com",
+    "password": "Demo2026!",
+    "role": "admin",
+    "name": "Demo Admin",
+    "email": "demo@facilityh2o.com",
+    "facilities": null,
+    "active": true,
+    "createdAt": "2026-03-02T00:00:00Z"
+  },
+  {
+    "id": "usr_demo_op",
+    "orgId": "org_demo",
+    "username": "operator@facilityh2o.com",
+    "password": "Demo2026!",
+    "role": "operator",
+    "name": "John Operator",
+    "email": "operator@facilityh2o.com",
+    "facilities": ["fac_main", "fac_east"],
+    "active": true,
+    "createdAt": "2026-03-02T00:00:00Z"
+  }
+]

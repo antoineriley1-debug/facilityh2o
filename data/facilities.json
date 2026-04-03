@@ -1,0 +1,20 @@
+[
+  {
+    "id": "fac_main",
+    "orgId": "org_demo",
+    "name": "Main Campus",
+    "address": "100 Hospital Drive, Washington DC 20010",
+    "code": "MAIN",
+    "active": true,
+    "createdAt": "2026-03-02T00:00:00Z"
+  },
+  {
+    "id": "fac_east",
+    "orgId": "org_demo",
+    "name": "East Wing",
+    "address": "200 Hospital Drive, Washington DC 20010",
+    "code": "EAST",
+    "active": true,
+    "createdAt": "2026-03-02T00:00:00Z"
+  }
+]
